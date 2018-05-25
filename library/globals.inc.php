@@ -156,7 +156,6 @@ $USER_SPECIFIC_GLOBALS = array('default_tab_1',
 
 
 
-
 $GLOBALS_METADATA = array(
 
   // Appearance Tab
@@ -3261,8 +3260,12 @@ $GLOBALS_METADATA = array(
       ),
       'lims_application' => array(
         xl('LIMS Software to use'),
+<<<<<<< HEAD
         'lims',
         '',
+=======
+        [ 'SENAITE LIMS' => 'senaite' ], // temporary, figuring out how to create an associative array while auto-detecting directories
+>>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
         xl('Choose the LIMS software to use')
       ),
       'lims_url' => array(
@@ -3280,7 +3283,11 @@ $GLOBALS_METADATA = array(
       'lims_password' => array(
         xl('LIMS Authentication Password'),
         'text',
+<<<<<<< HEAD
         'pass',
+=======
+        '',
+>>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
         xl('Password provided by the LIMS for login/API purposes')
       ),
 
