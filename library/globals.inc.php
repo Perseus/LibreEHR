@@ -3261,11 +3261,16 @@ $GLOBALS_METADATA = array(
       'lims_application' => array(
         xl('LIMS Software to use'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         'lims',
         '',
 =======
         [ 'SENAITE LIMS' => 'senaite' ], // temporary, figuring out how to create an associative array while auto-detecting directories
 >>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
+=======
+        'lims',
+        '',
+>>>>>>> Configuration fixes, added LIMS list to global list providers
         xl('Choose the LIMS software to use')
       ),
       'lims_url' => array(
@@ -3284,10 +3289,14 @@ $GLOBALS_METADATA = array(
         xl('LIMS Authentication Password'),
         'text',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'pass',
 =======
         '',
 >>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
+=======
+        'pass',
+>>>>>>> Configuration fixes, added LIMS list to global list providers
         xl('Password provided by the LIMS for login/API purposes')
       ),
 
