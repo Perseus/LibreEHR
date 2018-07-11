@@ -599,6 +599,7 @@ foreach ($GLOBALS_METADATA as $grpname => $grparr) {
       echo "  </select>\n";
     }
 
+<<<<<<< HEAD
     else if ($fldtype == 'timezone') {
       if ($_GET['mode'] == "user") {
         $globalTitle = $globalValue;
@@ -622,6 +623,8 @@ foreach ($GLOBALS_METADATA as $grpname => $grparr) {
       echo "  </select>\n";
     }
 
+=======
+>>>>>>> e4e36eeed69844227a7d8ac36d144856e13281dd
     else if ($fldtype == 'lims') {
       // List of LIMS softwares available
       echo " <select name='form_$i' id='form_$i'>\n";

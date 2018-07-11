@@ -3250,59 +3250,24 @@ $GLOBALS_METADATA = array(
     ),
   ),
 
-    'LIMS' => array( 
-
-      'lims_enabled' => array(
-        xl('LIMS Enabled/Disabled'),
-        'bool',
-        '0',
-        xl('Enable the laboratory information management system')
-      ),
-      'lims_application' => array(
-        xl('LIMS Software to use'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'lims',
-        '',
-=======
-        [ 'SENAITE LIMS' => 'senaite' ], // temporary, figuring out how to create an associative array while auto-detecting directories
->>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
-=======
-        'lims',
-        '',
->>>>>>> Configuration fixes, added LIMS list to global list providers
-        xl('Choose the LIMS software to use')
-      ),
-      'lims_url' => array(
-        xl('LIMS API Address'),
-        'text',
-        'http://localhost:8080',
-        xl('Address where the LIMS backend API is available')
-      ),
-      'lims_username' => array(
-        xl('LIMS Authentication Username'),
-        'text',
-        '',
-        xl('Username provided by the LIMS for login/API purposes')
-      ),
-      'lims_password' => array(
-        xl('LIMS Authentication Password'),
-        'text',
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'pass',
-=======
-        '',
->>>>>>> Initial commit for LIMS. Contains basic directory structure, first draft of installation instructions for SENAITE, and global settings for all things required for LIMS integration
-=======
-        'pass',
->>>>>>> Configuration fixes, added LIMS list to global list providers
-        xl('Password provided by the LIMS for login/API purposes')
-      ),
-
-
-
-
+  'LIMS' => array( 
+    'lims_enabled' => array(
+      xl('LIMS Enabled/Disabled'),
+      'bool',
+      '0',
+      xl('Enable the laboratory information management system')
+    ),
+    'lims_application' => array(
+      xl('LIMS Software to use'),
+      [ 'SENAITE LIMS' => 'senaite' ], // temporary, figuring out how to create an associative array while auto-detecting directories
+      xl('Choose the LIMS software to use')
+    ),
+    'lims_url' => array(
+      xl('LIMS API Address'),
+      'text',
+      'http://localhost:8080',
+      xl('Address where the LIMS backend API is available')
+    ),
   ),
 
 );
