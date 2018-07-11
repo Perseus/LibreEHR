@@ -29,3 +29,4 @@ Once cubic is installed, open the application. It requires you to have an ubuntu
 
 Next, open the Cubic application. Select a folder where you want the ISO to be created in (project directory, can be anything you want). In the ISO selection screen, click "Select" in the "Original ISO" section and navigate to the Ubuntu ISO that you downloaded.
 Click next, and give it some time to load the ISO in.
+
